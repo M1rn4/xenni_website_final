@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-slate-800;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold;
+  }
+  
+  h1 {
+    @apply text-5xl leading-tight;
+  }
+  
+  h2 {
+    @apply text-3xl;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-lime-400 text-slate-800 font-bold rounded-lg hover:bg-lime-500 transition-colors duration-200 inline-block;
+  }
+  
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-slate-800 text-slate-800 font-bold rounded-lg hover:bg-slate-800 hover:text-white transition-colors duration-200 inline-block;
+  }
+  
+  .section {
+    @apply py-20 px-6;
+  }
+  
+  .container-custom {
+    @apply max-w-6xl mx-auto;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200;
+  }
+  
+  .status-badge {
+    @apply inline-block px-3 py-1 bg-lime-400 text-slate-800 text-xs font-bold rounded-full;
+  }
+  
+  .accent-green {
+    @apply text-lime-400;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
