@@ -1,4 +1,4 @@
-# xenni - Inteligencia Artificial para Profesionales
+# xenni - Inteligencia Artificial para Profesionales xx
 
 Una landing page moderna para una plataforma educativa de inteligencia artificial, diseñada para profesionales que quieren dominar IA.
 
