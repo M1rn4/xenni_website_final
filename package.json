@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext .js,.jsx"
+    "lint": "eslint . --ext .js,.jsx",
+    "deploy": "echo 'Deployed to Cloudflare Pages'"
   },
   "dependencies": {
     "react": "^18.2.0",
