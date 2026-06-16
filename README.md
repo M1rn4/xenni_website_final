@@ -1,10 +1,27 @@
-# xenni - Inteligencia Artificial para Profesionales
+# xenni - Domina la IA en tu Marketing
 
-Una landing page moderna para una plataforma educativa de inteligencia artificial, diseñada para profesionales que quieren dominar IA.
+Una landing page moderna para el lanzamiento de un curso intensivo de inteligencia artificial, diseñado para profesionales que quieren crear contenido profesional con IA en 10 horas.
+
+## 🎯 Sobre el Curso
+
+**Domina IA. Crea en minutos.**
+
+Aprende a crear contenido profesional con IA: prompts, imágenes y videos en 10 horas en vivo.
+
+### Qué obtienes:
+- 📝 **15 Prompts** reutilizables listos para copiar y pegar
+- 🎨 **Kit de Marca Visual** con logo, paleta e imágenes
+- 🎬 **Video Profesional** - Reel de 45 segundos listo para publicar
+- 📅 **Calendario de Contenido** - 7 publicaciones completas para tu semana
+- ⚡ **40+ archivos** listos para usar inmediatamente
+
+### Inicio: 11 de julio | 4 sábados | 4:00 - 6:30 PM | 496 soles
+
+---
 
 ## 🎨 Diseño
 
-La página está inspirada en el estilo de [xenni.lat](https://xenni.lat/) con:
+La página está diseñada con:
 - **Paleta de colores**: Fondo crema suave, acentos en verde neón lime, tonos pastel
 - **Tipografía**: Serif elegante para headings, sans-serif moderno para body text
 - **Componentes**: Cards minimalistas, badges de estado, indicadores visuales
@@ -15,6 +32,7 @@ La página está inspirada en el estilo de [xenni.lat](https://xenni.lat/) con:
 - **React 18**: Framework UI moderno
 - **Tailwind CSS**: Utilidades para estilos
 - **Vite**: Build tool rápido y eficiente
+- **Cloudflare Pages**: Deployment automático desde GitHub
 - **JavaScript ES6+**: JavaScript moderno
 
 ## 📦 Estructura
@@ -24,30 +42,38 @@ xenni_website_final/
 ├── src/
 │   ├── components/
 │   │   ├── Header.jsx          # Navegación principal
-│   │   ├── Hero.jsx            # Sección hero con CTA
-│   │   ├── Features.jsx        # Características principales
-│   │   ├── Modules.jsx         # Módulos del curso
-│   │   ├── HowItWorks.jsx      # Cómo funciona el curso
-│   │   ├── Benefits.jsx        # Beneficios e incluye
-│   │   ├── Instructors.jsx     # Equipo de instructores
+│   │   ├── Hero.jsx            # Sección hero - Domina la IA
+│   │   ├── Features.jsx        # Qué crearás (prompts, imágenes, videos)
+│   │   ├── Modules.jsx         # 4 módulos del curso
+│   │   ├── HowItWorks.jsx      # Flujo simple de creación
+│   │   ├── Results.jsx         # Resultados y entregas
+│   │   ├── Benefits.jsx        # 4 proyectos que te llevas
+│   │   ├── Instructors.jsx     # Mirna Ampuero - Especialista en IA
 │   │   ├── FAQ.jsx             # Preguntas frecuentes
 │   │   ├── CTA.jsx             # Call to action final
-│   │   └── Footer.jsx          # Pie de página
+│   │   └── Footer.jsx          # Pie de página + redes sociales
+│   ├── assets/
+│   │   └── MIRNA2.jpg          # Foto de la instructora
 │   ├── App.jsx                 # Componente principal
 │   ├── main.jsx                # Punto de entrada React
 │   └── index.css               # Estilos globales + Tailwind
+├── public/
+│   └── _redirects              # Configuración de rutas Cloudflare
 ├── index.html                  # HTML principal
 ├── vite.config.js              # Configuración de Vite
 ├── tailwind.config.js          # Configuración de Tailwind
 ├── postcss.config.js           # Configuración de PostCSS
+├── wrangler.toml               # Configuración de Cloudflare Pages
+├── CLOUDFLARE_SETUP.md         # Guía de setup en Cloudflare
 └── package.json                # Dependencias y scripts
 ```
 
 ## 🚀 Instalación y ejecución
 
 ### Requisitos
-- Node.js 16+ 
+- Node.js 18+
 - npm o yarn
+
 
 ### Pasos
 
