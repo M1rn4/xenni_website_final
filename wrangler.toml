@@ -1,0 +1,17 @@
+name = "xenni-website"
+main = "dist/index.html"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run build"
+cwd = "./"
+watch_paths = ["src/**/*.jsx"]
+
+[env.production]
+name = "xenni-website-prod"
+routes = [
+  { pattern = "xenni.xyz/*", zone_name = "xenni.xyz" }
+]
+
+[env.staging]
+name = "xenni-website-staging"
