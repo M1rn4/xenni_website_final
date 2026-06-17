@@ -1,4 +1,4 @@
-# xenni - Domina la IA en tu Marketing 
+# xenni - Domina la IA en tu Marketing 11
 
 Una landing page moderna para el lanzamiento de un curso intensivo de inteligencia artificial, diseñado para profesionales que quieren crear contenido profesional con IA en 10 horas.
 
