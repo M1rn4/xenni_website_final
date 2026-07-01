@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import BrandLogo from './BrandLogo'
 
 export default function Header() {
   const [language, setLanguage] = useState('es')
@@ -14,9 +15,7 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-cream-100/95 backdrop-blur-sm z-50 border-b border-cream-200">
       <div className="container-custom flex items-center justify-between py-6">
         <div className="flex items-center">
-          <h1 className="text-2xl font-serif font-bold">
-            xenni<span className="accent-green">.</span>
-          </h1>
+          <BrandLogo />
         </div>
 
         <nav className="hidden md:flex gap-8 items-center">

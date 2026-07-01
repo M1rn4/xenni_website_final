@@ -1,4 +1,5 @@
 import React from 'react'
+import BrandLogo from './BrandLogo'
 
 export default function Footer() {
   return (
@@ -6,8 +7,10 @@ export default function Footer() {
       <div className="container-custom">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h4 className="font-serif font-bold text-white mb-4">xenni<span className="accent-green">.</span></h4>
-            <p className="text-sm">Inteligencia Artificial para Profesionales</p>
+            <div className="mb-4">
+              <BrandLogo light />
+            </div>
+            <p className="text-sm">IA práctica para docentes de aula</p>
           </div>
           
           <div>
@@ -89,7 +92,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
           <p>© 2024 xenni. Todos los derechos reservados.</p>
-          <p>Hecho con ❤️ para profesionales que aman la tecnología</p>
+          <p>Hecho para docentes que quieren ahorrar tiempo con IA</p>
         </div>
       </div>
     </footer>

@@ -1,21 +1,21 @@
-# xenni - Domina la IA en tu Marketing
+# xenni - IA práctica para docentes
 
-Una landing page moderna para el lanzamiento de un curso intensivo de inteligencia artificial, diseñado para profesionales que quieren crear contenido profesional con IA en 10 horas.
+Landing page para un curso intensivo de inteligencia artificial diseñado para docentes de aula que quieren planificar sesiones, crear materiales, evaluar y ahorrar horas cada semana.
 
 ## 🎯 Sobre el Curso
 
-**Domina IA. Crea en minutos.**
+**Enseña con IA. Ahorra horas cada semana.**
 
-Aprende a crear contenido profesional con IA: prompts, imágenes y videos en 10 horas en vivo.
+Aprende a aplicar IA en el aula en 5 horas en vivo: planificación, materiales, evaluaciones y flujos semanales para docentes.
 
 ### Qué obtienes:
-- 📝 **15 Prompts** reutilizables listos para copiar y pegar
-- 🎨 **Kit de Marca Visual** con logo, paleta e imágenes
-- 🎬 **Video Profesional** - Reel de 45 segundos listo para publicar
-- 📅 **Calendario de Contenido** - 7 publicaciones completas para tu semana
-- ⚡ **40+ archivos** listos para usar inmediatamente
+- 📚 **Sesiones de clase** generadas y adaptadas con IA
+- 📝 **Exámenes y rúbricas** listos para ajustar a tu aula
+- 🎨 **Material visual y fichas** para explicar tus temas
+- 🧩 **Banco de actividades** por grado y nivel
+- ✅ **Certificado verificable** para respaldar tu capacitación
 
-### Inicio: 11 de julio | 4 sábados | 4:00 - 6:30 PM | 496 soles
+### Curso de 5 horas | S/150 por persona
 
 ---
 
@@ -42,13 +42,13 @@ xenni_website_final/
 ├── src/
 │   ├── components/
 │   │   ├── Header.jsx          # Navegación principal
-│   │   ├── Hero.jsx            # Sección hero - Domina la IA
-│   │   ├── Features.jsx        # Qué crearás (prompts, imágenes, videos)
+│   │   ├── Hero.jsx            # Sección hero - IA para docentes
+│   │   ├── Features.jsx        # Qué crearás para el aula
 │   │   ├── Modules.jsx         # 4 módulos del curso
-│   │   ├── HowItWorks.jsx      # Flujo simple de creación
+│   │   ├── HowItWorks.jsx      # Flujo docente en 4 pasos
 │   │   ├── Results.jsx         # Resultados y entregas
-│   │   ├── Benefits.jsx        # 4 proyectos que te llevas
-│   │   ├── Instructors.jsx     # Mirna Ampuero - Especialista en IA
+│   │   ├── Benefits.jsx        # Avances y beneficios docentes
+│   │   ├── Instructors.jsx     # Mirna Ampuero - IA aplicada a educación
 │   │   ├── FAQ.jsx             # Preguntas frecuentes
 │   │   ├── CTA.jsx             # Call to action final
 │   │   └── Footer.jsx          # Pie de página + redes sociales
@@ -101,11 +101,11 @@ npm run preview
 ## 📄 Secciones de la página
 
 - **Hero**: Headline principal, descripción y panel de estado del curso
-- **Features**: 4 características principales (Instructores, Proyecto Real, Comunidad, Certificado)
-- **Modules**: 8 semanas de contenido del curso
-- **Benefits**: 6 beneficios principales del curso
-- **How It Works**: Proceso en 4 pasos para inscribirse y aprender
-- **Instructors**: Perfiles de 4 instructores expertos
+- **Features**: entregables docentes concretos
+- **Modules**: 4 módulos prácticos de IA aplicada al aula
+- **Benefits**: beneficios y avances para docentes
+- **How It Works**: flujo de tema a clase lista
+- **Instructors**: perfil de Mirna Ampuero
 - **FAQ**: 6 preguntas frecuentes expandibles
 - **CTA**: Call to action final para reservar lugar
 - **Footer**: Links de navegación, legal y redes sociales

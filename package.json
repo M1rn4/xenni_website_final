@@ -1,7 +1,7 @@
 {
   "name": "xenni-ia-course",
   "version": "1.0.0",
-  "description": "Inteligencia Artificial para Profesionales - Educational Platform",
+  "description": "IA práctica para docentes de aula - Landing page",
   "private": true,
   "type": "module",
   "scripts": {

@@ -4,27 +4,27 @@ export default function Modules() {
   const modules = [
     {
       week: '01',
-      title: 'Prompts',
-      description: 'ChatGPT, Claude, Gemini · Técnicas profesionales · 15 prompts reutilizables',
-      status: '2.5 h'
+      title: 'IA para planificar clases',
+      description: 'ChatGPT, Claude, Gemini · Sesiones por competencia · Adaptación por grado y nivel',
+      status: '1.25 h'
     },
     {
       week: '02',
-      title: 'Imágenes',
-      description: 'Leonardo AI, DALL-E · Estilo y composición · Tu kit de marca',
-      status: '2.5 h'
+      title: 'Materiales y fichas',
+      description: 'Textos, ejemplos, guías, láminas y actividades listas para llevar al aula',
+      status: '1.25 h'
     },
     {
       week: '03',
-      title: 'Videos',
-      description: 'Runway, Pika, Veo · Guion y voz con IA · Reel de 45 seg',
-      status: '3 h'
+      title: 'Evaluaciones y rúbricas',
+      description: 'Pruebas, listas de cotejo, criterios de logro y retroalimentación para estudiantes',
+      status: '1.25 h'
     },
     {
       week: '04',
-      title: 'Integración',
-      description: 'Flujo completo · 7 posts en 2 horas · Casos reales para tu industria',
-      status: '2 h'
+      title: 'Flujo semanal del docente',
+      description: 'De tema a clase lista · Banco reutilizable de prompts · Rutina para ahorrar horas',
+      status: '1.25 h'
     }
   ]
 
@@ -32,7 +32,7 @@ export default function Modules() {
     <section id="modulos" className="section">
       <div className="container-custom">
         <p className="text-slate-600 uppercase tracking-widest font-bold mb-4 text-xs">Qué vas a dominar</p>
-        <h2 className="mb-12">4 módulos prácticos · 10 horas en vivo</h2>
+        <h2 className="mb-12">4 módulos prácticos · 5 horas en vivo.</h2>
 
         <div className="grid md:grid-cols-2 gap-6">
           {modules.map((module, idx) => (

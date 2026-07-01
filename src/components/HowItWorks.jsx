@@ -4,23 +4,23 @@ export default function HowItWorks() {
   const steps = [
     {
       number: '01',
-      title: 'Idea',
-      description: 'Definimos tu objetivo y la propuesta de contenido que necesitas.'
+      title: 'Elige tu tema',
+      description: 'Partimos de tu curso, grado, competencia y tiempo real de clase.'
     },
     {
       number: '02',
-      title: 'Prompt',
-      description: 'La IA escribe tu copy con prompts profesionales y efectivos.'
+      title: 'La IA arma la sesión',
+      description: 'Generas una planificación clara, editable y alineada al objetivo de aprendizaje.'
     },
     {
       number: '03',
-      title: 'Imagen',
-      description: 'Generamos visuales atractivos al instante para tu marca.'
+      title: 'Creas material y evaluación',
+      description: 'Preparas fichas, ejemplos, actividades, examen y rúbrica en el mismo flujo.'
     },
     {
       number: '04',
-      title: 'Video',
-      description: 'Creamos un video listo para publicar en formato Reel.'
+      title: 'Lo usas mañana',
+      description: 'Sales con recursos listos para aplicar y reutilizar durante la semana.'
     }
   ]
 
@@ -28,7 +28,7 @@ export default function HowItWorks() {
     <section id="como-funciona" className="section bg-gradient-to-b from-cream-100 to-soft-blue/20">
       <div className="container-custom">
         <p className="text-slate-600 uppercase tracking-widest font-bold mb-4 text-xs">Un flujo simple</p>
-        <h2 className="mb-12">Resultados reales en cuatro pasos.</h2>
+        <h2 className="mb-12">De un tema pendiente a una clase lista.</h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, idx) => (

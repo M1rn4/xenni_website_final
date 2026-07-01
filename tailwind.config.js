@@ -9,27 +9,27 @@ export default {
       colors: {
         // Xenni palette
         cream: {
-          50: '#FAFAF8',
-          100: '#F5F5F0',
-          200: '#EFEFEA',
+          50: '#F8FBFF',
+          100: '#F1F6FD',
+          200: '#DDEBFA',
         },
         lime: {
-          400: '#CCFF00',
-          500: '#BFFF00',
+          400: '#2F80ED',
+          500: '#0B4A92',
         },
         slate: {
-          700: '#2C3E50',
-          800: '#1A202C',
+          700: '#17375E',
+          800: '#0A2E63',
         },
         sage: {
-          100: '#E8F5E8',
-          200: '#D4EBD4',
-          300: '#B8DFB8',
-          400: '#9DD39D',
+          100: '#EAF3FF',
+          200: '#CFE3FA',
+          300: '#9FC7F2',
+          400: '#2F80ED',
         },
         soft: {
-          blue: '#E8EEF5',
-          purple: '#F0E8F5',
+          blue: '#EAF3FF',
+          purple: '#F5F8FC',
         }
       },
       fontFamily: {

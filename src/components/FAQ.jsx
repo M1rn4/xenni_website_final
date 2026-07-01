@@ -5,28 +5,28 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: '¿Cuál es el nivel requerido para empezar?',
-      answer: 'No necesitas experiencia previa en IA. Solo requiere comprensión básica de programación (Python es ideal pero podemos ayudarte). Todos los conceptos se explican desde cero.'
+      question: '¿Necesito saber de tecnología para empezar?',
+      answer: 'No. El curso empieza desde cero y se trabaja con herramientas simples. Solo necesitas una computadora o laptop con internet y ganas de practicar con tus propios temas.'
     },
     {
-      question: '¿Puedo tomar el curso si trabajo a tiempo completo?',
-      answer: 'Sí, está diseñado para profesionales ocupados. Las clases son de 2-3 horas por semana en vivo (grabadas), y puedes ver el contenido a tu propio ritmo.'
+      question: '¿Sirve para inicial, primaria y secundaria?',
+      answer: 'Sí. Los ejercicios se adaptan por nivel, grado y área. Aprenderás a pedirle a la IA que ajuste lenguaje, dificultad, actividades y evaluación según tus estudiantes.'
     },
     {
       question: '¿Qué pasa si no puedo asistir a una clase en vivo?',
-      answer: 'Todas las sesiones se graban. Tienes acceso de por vida a los videos, recursos y materiales. Puedes ver todo cuando tengas disponibilidad.'
+      answer: 'Las sesiones se graban y recibirás los materiales trabajados. Aun así, recomendamos asistir en vivo para resolver dudas sobre tus propios casos de aula.'
     },
     {
-      question: '¿El certificado es reconocido en la industria?',
-      answer: 'Sí. El certificado incluye verificación de asistencia y proyecto final. Es reconocido por empresas líderes en tecnología e IA.'
+      question: '¿El certificado sirve para mi puntaje de escala magisterial?',
+      answer: 'El certificado es verificable e indica horas de capacitación. Si necesitas usarlo para un proceso específico de escala magisterial, escríbenos para revisar los requisitos vigentes de tu convocatoria.'
     },
     {
-      question: '¿Hay descuentos disponibles?',
-      answer: 'Sí. Ofrecemos descuentos especiales para primeros inscritos, referencias de amigos, y pequeños equipos de empresa. Escríbenos para más detalles.'
+      question: '¿Puedo llevar el taller a mi colegio?',
+      answer: 'Sí. Tenemos una modalidad para colegios: taller presencial in-situ para la plana docente, con contenidos ajustados al nivel y necesidades de la institución.'
     },
     {
       question: '¿Qué herramientas necesito?',
-      answer: 'Solo una computadora con conexión a internet. Proporcionamos acceso a entornos en la nube para programar, así que no necesitas instalar nada en tu máquina.'
+      answer: 'Usaremos herramientas de IA accesibles desde el navegador. No necesitas programar ni instalar software complejo.'
     }
   ]
 
